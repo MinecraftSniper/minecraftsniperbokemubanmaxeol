@@ -100,7 +100,7 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 ```json
 {
   "https": {
-    "enable": "true",          // 改为 "true" 启用
+    "enable": "true",          // 改为 "true" 或"auto"可启用
     "keyPath": "sslkey/你的私钥文件.key",
     "certPath": "sslkey/你的证书文件.crt"
   }
