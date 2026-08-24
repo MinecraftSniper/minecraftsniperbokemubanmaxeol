@@ -1,0 +1,18 @@
+{
+  "siteTitle": "Minecraft",
+  "background": "/image/Minecraft.png",
+  "favicon": "/image/logo.png",
+  "port":8036,
+  "refreshInterval": 3000,
+  "https" :{
+    "enable":"false",
+    "keyPath": "sslkey/MinecraftSniper.key",
+    "certPath": "sslkey/MinecraftSniper.crt"
+  },
+  "sources": {
+    "home": "home.md",
+    "about": "about.md",
+    "posts": "posts",
+    "moments": "moments"
+  }
+}
