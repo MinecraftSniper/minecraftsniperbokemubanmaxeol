@@ -26,19 +26,19 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 
 本版本以及以下版本已标记为 **EOL（End-of-Life）**，即生命周期终止版本：
 
- **[MinecraftSniper 博客模板](https://gitee.com/Minecraft-Sniper/minecraftsniperblogtemplate)**  
-
- **[MinecraftSniper 博客模板 Pro](https://gitee.com/Minecraft-Sniper/minecraftsniperblogtemplatepro)** 
-  
- **[MinecraftSniper 博客模板 Pro+](https://gitee.com/Minecraft-Sniper/minecraftsniperbokemubanm)** 
+- **MinecraftSniper 博客模板**
+- **MinecraftSniper 博客模板 Pro**
+- **MinecraftSniper 博客模板 Pro+**
+- **MinecraftSniper 博客模板 MAX 版（本版本）**
 
 这意味着：
+
 - ✅ **软件仍可正常使用**：所有功能完整可用
 - ❌ **不再提供任何更新**：包括安全补丁、功能补丁、兼容性修复
 - ❌ **不保证与新环境的兼容性**：如 Node.js 未来版本或新操作系统出现兼容问题，将不予修复
 - ❌ **官方技术支持终止**：不再响应 Issue 和 PR
 
-**选择本版本的风险**：若未来发现安全漏洞或与运行环境产生兼容性问题，将无法获得官方修复。建议仅在非关键环境或已评估风险的前提下使用。
+**选择版本的风险**：若未来发现安全漏洞或与运行环境产生兼容性问题，将无法获得官方修复。建议仅在非关键环境下评估风险的前提下使用。
 
 ---
 
@@ -72,7 +72,7 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 - **🔌 SSE 实时推送**：提供 `/api/admin/status/stream` 端点，支持前端仪表盘实时更新
 
 ### 技术特性
-- **极低资源占用**：2G 内存即可运行
+- **极低资源占用**：256MB 内存即可运行
 - **无数据库**：所有内容以 Markdown 文件存储，复制即备份
 - **内存缓存管理**：支持 `auto`（自动）/ `true`（手动）/ `false`（禁用）三种模式
 - **定时内存检查**：每 30 秒自动检测内存，紧张时自动降级
@@ -102,22 +102,25 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 ## ⚙️ 配置说明（HTTPS）
 
 ### 前台博客 HTTPS（默认禁用）
+
 前台博客的 HTTPS 默认**不启用**，如需开启，请编辑 `config.json` 文件：
 
 ```json
 {
   "https": {
-    "enable": "true",          // 改为 "true" 或"auto"可启用
+    "enable": "true",      // 改为 "true" 或 "auto" 可启用
     "keyPath": "sslkey/你的私钥文件.key",
     "certPath": "sslkey/你的证书文件.crt"
   }
 }
 ```
-- `enable` 可选 `"true"`（强制启用）、`"false"`（禁用）、`"auto"`（自动检测，证书存在则启用）
+
+- **enable** 可选 `"true"`（强制启用）、`"false"`（禁用）、`"auto"`（自动检测，证书存在则启用）
 - 证书文件需放置在项目根目录下的 `sslkey/` 文件夹内
 - **默认值为 `"false"`**，用户按需开启
 
 ### 后台管理 HTTPS（默认自动）
+
 后台管理的 HTTPS 配置在 `adminconfig.json` 中，默认 `"auto"`（证书存在即启用），也可手动设置为 `"true"` 或 `"false"`。
 
 ---
