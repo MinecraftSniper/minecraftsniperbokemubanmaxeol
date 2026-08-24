@@ -24,8 +24,15 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 
 ## ⚠️ EOL 声明
 
-本版本已标记为 **EOL（End-of-Life）**，即生命周期终止版本。这意味着：
+本版本以及以下版本已标记为 **EOL（End-of-Life）**，即生命周期终止版本：
 
+ **[MinecraftSniper 博客模板](https://gitee.com/Minecraft-Sniper/minecraftsniperblogtemplate) **  
+
+ **[MinecraftSniper 博客模板 Pro](https://gitee.com/Minecraft-Sniper/minecraftsniperblogtemplatepro)** 
+  
+ **[MinecraftSniper 博客模板 Pro+](https://gitee.com/Minecraft-Sniper/minecraftsniperbokemubanm)** 
+
+这意味着：
 - ✅ **软件仍可正常使用**：所有功能完整可用
 - ❌ **不再提供任何更新**：包括安全补丁、功能补丁、兼容性修复
 - ❌ **不保证与新环境的兼容性**：如 Node.js 未来版本或新操作系统出现兼容问题，将不予修复
