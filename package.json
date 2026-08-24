@@ -1,0 +1,16 @@
+{
+  "name": "MinecraftSniper",
+  "main": "server.js",
+  "version": "MinecraftSniper 20260825 EOL",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "chokidar": "^3.5.3",
+    "marked": "^4.3.0",
+    "multer": "2.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
