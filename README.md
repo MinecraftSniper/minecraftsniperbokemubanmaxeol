@@ -99,7 +99,7 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 
 ---
 
-## ⚙️ 配置说明（HTTPS）
+## ⚙️ 配置说明
 
 ### 前台博客 HTTPS（默认禁用）
 
@@ -122,6 +122,15 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 ### 后台管理 HTTPS（默认自动）
 
 后台管理的 HTTPS 配置在 `adminconfig.json` 中，默认 `"auto"`（证书存在即启用），也可手动设置为 `"true"` 或 `"false"`。
+
+本版本的启动命令是：
+
+
+```
+bash
+    pnpm server
+```
+
 
 ---
 
