@@ -122,6 +122,7 @@ MinecraftSniper 博客模板 MAX 版是一个**轻量、安全、可管理**的�
 ### 后台管理 HTTPS（默认自动）
 
 后台管理的 HTTPS 配置在 `adminconfig.json` 中，默认 `"auto"`（证书存在即启用），也可手动设置为 `"true"` 或 `"false"`。
+
 ---
 
 **注意：本版本的启动命令与标准版、Pro以及Pro+不通用，本版本的启动命令是：**
